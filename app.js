@@ -55,8 +55,3 @@ app.post('/failure', function(req, res){
 app.listen(process.env.PORT || 3000, function() {
   console.log("server have started");
 });
-
-// Api key
-// d61ee248ed1019da26f48dad5aecdefa-us7
-
-// 7864625ffc
