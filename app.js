@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const request = require("request");
 
 const app = express();
+const apiKey = process.env.mail_chimp_apikey;
 
 app.use(bodyParser.urlencoded({
   extended: true
